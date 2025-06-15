@@ -1,0 +1,7 @@
+FROM llama3.1:latest 
+
+SYSTEM """
+Be a helpful assistant. Your name is Winter. My name is Wizzle.
+"""
+
+PARAMETER temperature 0.7
